@@ -143,6 +143,15 @@ plt.show()
 df_pred['rainfall_szenario'].sum() - df_original['Rainfall(mm)'].sum()
 
 
+# Regen in den Monaten 9 - 12 für beide
+
+rainfall_month = [9, 10, 11, 12]
+
+df_pred.loc[df_pred['month'].isin(rainfall_month)]['rainfall_szenario'].sum()
+
+df_original.loc[df_original['month'].isin(rainfall_month)]['Rainfall(mm)'].sum()
+
+
 # In[157]:
 
 
