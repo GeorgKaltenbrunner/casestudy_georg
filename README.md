@@ -18,6 +18,7 @@ Vorhersagen der Auswirkung von zwei Szenarien auf das Geschäft eines Unternehme
 Datensatz wurde bereinigt:
 - Werte für 2017 wurden entfernt
 - Ausreißer wurden über Spalte 'Temperature(°C)' behandelt
+- csv_nach_cleaning.csv wird hier exportiert
 ### 2. data_exploration.py
 #### Ziel:
 - Testen von zuvor entwickelten Hypothesen
@@ -35,5 +36,7 @@ Datensatz wurde bereinigt:
 - Performance getestet über Übergabe der Variablen-Werte und Berechnung des R2 anhand der 'predicted Rented Bike Count' und der tatsächlichen
 #### Wichtig:
 - Variablen für Modell: Temperature(°C)', 'Humidity(%)', 'Rainfall(mm)'
+- predicted.csv wird hier exportiert
 ### 4. ergebnisse_visualisiern.py
-
+#### Ziel:
+- Visualisieren der Ergebnisse, durch Analyse und Vergleich von predicted.csv mit csv_nach_cleaning.csv
