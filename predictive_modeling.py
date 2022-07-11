@@ -366,19 +366,3 @@ plt.show()
 
 predicted_df.to_csv('predicted.csv')
 
-
-# In[ ]:
-
-
-# Exportiere predicted_df
-
-predicted_df.to_csv('predicted.csv')
-
-
-# In[ ]:
-
-
-# Exportiere predicted_df
-
-predicted_df.to_csv('predicted.csv')
-
