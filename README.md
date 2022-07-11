@@ -3,6 +3,10 @@
 ## Ziel:
 Vorhersagen der Auswirkung von zwei Szenarien auf das Geschäft eines Unternehmens, das Fahrräder in Seoul vermietet.
 
+## To-Do's:
+- SeoulBikeData.csv abspeichern und in datensatz.py in df_master einlesen
+- Wenn nachfolgende Reihenfolge gefolgt wird -> keine weiteren To-Do's
+
 ## Vorgehensweise:
 ### 1. datensatz.py
 #### Ziel:
